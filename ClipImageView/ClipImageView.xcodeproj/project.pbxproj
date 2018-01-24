@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E41D68912018EC3400A42E53 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E41D68902018EC3400A42E53 /* AppDelegate.m */; };
+		E41D68942018EC3400A42E53 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E41D68932018EC3400A42E53 /* ViewController.m */; };
+		E41D68972018EC3400A42E53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E41D68952018EC3400A42E53 /* Main.storyboard */; };
+		E41D68992018EC3400A42E53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E41D68982018EC3400A42E53 /* Assets.xcassets */; };
+		E41D689C2018EC3400A42E53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E41D689A2018EC3400A42E53 /* LaunchScreen.storyboard */; };
+		E41D689F2018EC3400A42E53 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E41D689E2018EC3400A42E53 /* main.m */; };
+		E41D68A92018EC3500A42E53 /* ClipImageViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E41D68A82018EC3500A42E53 /* ClipImageViewUITests.m */; };
+		E41D68BB2018EC4B00A42E53 /* CLClippingPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = E41D68B52018EC4B00A42E53 /* CLClippingPanel.m */; };
+		E41D68BC2018EC4B00A42E53 /* default.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E41D68B62018EC4B00A42E53 /* default.jpg */; };
+		E41D68BD2018EC4B00A42E53 /* UIImage+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = E41D68B82018EC4B00A42E53 /* UIImage+Utility.m */; };
+		E41D68BE2018EC4B00A42E53 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = E41D68BA2018EC4B00A42E53 /* UIView+Frame.m */; };
+		E41D68C12018EC5800A42E53 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E41D68C02018EC5800A42E53 /* SecondViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E41D68A52018EC3500A42E53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E41D68842018EC3400A42E53 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E41D688B2018EC3400A42E53;
+			remoteInfo = ClipImageView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E41D688C2018EC3400A42E53 /* ClipImageView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClipImageView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E41D688F2018EC3400A42E53 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E41D68902018EC3400A42E53 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E41D68922018EC3400A42E53 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E41D68932018EC3400A42E53 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E41D68962018EC3400A42E53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E41D68982018EC3400A42E53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E41D689B2018EC3400A42E53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E41D689D2018EC3400A42E53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E41D689E2018EC3400A42E53 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E41D68A42018EC3500A42E53 /* ClipImageViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClipImageViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E41D68A82018EC3500A42E53 /* ClipImageViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClipImageViewUITests.m; sourceTree = "<group>"; };
+		E41D68AA2018EC3500A42E53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E41D68B42018EC4B00A42E53 /* CLClippingPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLClippingPanel.h; sourceTree = "<group>"; };
+		E41D68B52018EC4B00A42E53 /* CLClippingPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLClippingPanel.m; sourceTree = "<group>"; };
+		E41D68B62018EC4B00A42E53 /* default.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = default.jpg; sourceTree = "<group>"; };
+		E41D68B72018EC4B00A42E53 /* UIImage+Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Utility.h"; sourceTree = "<group>"; };
+		E41D68B82018EC4B00A42E53 /* UIImage+Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Utility.m"; sourceTree = "<group>"; };
+		E41D68B92018EC4B00A42E53 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		E41D68BA2018EC4B00A42E53 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		E41D68BF2018EC5800A42E53 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		E41D68C02018EC5800A42E53 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E41D68892018EC3400A42E53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E41D68A12018EC3500A42E53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E41D68832018EC3400A42E53 = {
+			isa = PBXGroup;
+			children = (
+				E41D688E2018EC3400A42E53 /* ClipImageView */,
+				E41D68A72018EC3500A42E53 /* ClipImageViewUITests */,
+				E41D688D2018EC3400A42E53 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E41D688D2018EC3400A42E53 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E41D688C2018EC3400A42E53 /* ClipImageView.app */,
+				E41D68A42018EC3500A42E53 /* ClipImageViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E41D688E2018EC3400A42E53 /* ClipImageView */ = {
+			isa = PBXGroup;
+			children = (
+				E41D688F2018EC3400A42E53 /* AppDelegate.h */,
+				E41D68902018EC3400A42E53 /* AppDelegate.m */,
+				E41D68922018EC3400A42E53 /* ViewController.h */,
+				E41D68932018EC3400A42E53 /* ViewController.m */,
+				E41D68BF2018EC5800A42E53 /* SecondViewController.h */,
+				E41D68C02018EC5800A42E53 /* SecondViewController.m */,
+				E41D68B32018EC4B00A42E53 /* CLClippingTool */,
+				E41D68952018EC3400A42E53 /* Main.storyboard */,
+				E41D68982018EC3400A42E53 /* Assets.xcassets */,
+				E41D689A2018EC3400A42E53 /* LaunchScreen.storyboard */,
+				E41D689D2018EC3400A42E53 /* Info.plist */,
+				E41D689E2018EC3400A42E53 /* main.m */,
+			);
+			path = ClipImageView;
+			sourceTree = "<group>";
+		};
+		E41D68A72018EC3500A42E53 /* ClipImageViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E41D68A82018EC3500A42E53 /* ClipImageViewUITests.m */,
+				E41D68AA2018EC3500A42E53 /* Info.plist */,
+			);
+			path = ClipImageViewUITests;
+			sourceTree = "<group>";
+		};
+		E41D68B32018EC4B00A42E53 /* CLClippingTool */ = {
+			isa = PBXGroup;
+			children = (
+				E41D68B42018EC4B00A42E53 /* CLClippingPanel.h */,
+				E41D68B52018EC4B00A42E53 /* CLClippingPanel.m */,
+				E41D68B62018EC4B00A42E53 /* default.jpg */,
+				E41D68B72018EC4B00A42E53 /* UIImage+Utility.h */,
+				E41D68B82018EC4B00A42E53 /* UIImage+Utility.m */,
+				E41D68B92018EC4B00A42E53 /* UIView+Frame.h */,
+				E41D68BA2018EC4B00A42E53 /* UIView+Frame.m */,
+			);
+			path = CLClippingTool;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E41D688B2018EC3400A42E53 /* ClipImageView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E41D68AD2018EC3500A42E53 /* Build configuration list for PBXNativeTarget "ClipImageView" */;
+			buildPhases = (
+				E41D68882018EC3400A42E53 /* Sources */,
+				E41D68892018EC3400A42E53 /* Frameworks */,
+				E41D688A2018EC3400A42E53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClipImageView;
+			productName = ClipImageView;
+			productReference = E41D688C2018EC3400A42E53 /* ClipImageView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E41D68A32018EC3500A42E53 /* ClipImageViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E41D68B02018EC3500A42E53 /* Build configuration list for PBXNativeTarget "ClipImageViewUITests" */;
+			buildPhases = (
+				E41D68A02018EC3500A42E53 /* Sources */,
+				E41D68A12018EC3500A42E53 /* Frameworks */,
+				E41D68A22018EC3500A42E53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E41D68A62018EC3500A42E53 /* PBXTargetDependency */,
+			);
+			name = ClipImageViewUITests;
+			productName = ClipImageViewUITests;
+			productReference = E41D68A42018EC3500A42E53 /* ClipImageViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E41D68842018EC3400A42E53 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = limeng;
+				TargetAttributes = {
+					E41D688B2018EC3400A42E53 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					E41D68A32018EC3500A42E53 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E41D688B2018EC3400A42E53;
+					};
+				};
+			};
+			buildConfigurationList = E41D68872018EC3400A42E53 /* Build configuration list for PBXProject "ClipImageView" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E41D68832018EC3400A42E53;
+			productRefGroup = E41D688D2018EC3400A42E53 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E41D688B2018EC3400A42E53 /* ClipImageView */,
+				E41D68A32018EC3500A42E53 /* ClipImageViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E41D688A2018EC3400A42E53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E41D689C2018EC3400A42E53 /* LaunchScreen.storyboard in Resources */,
+				E41D68992018EC3400A42E53 /* Assets.xcassets in Resources */,
+				E41D68972018EC3400A42E53 /* Main.storyboard in Resources */,
+				E41D68BC2018EC4B00A42E53 /* default.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E41D68A22018EC3500A42E53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E41D68882018EC3400A42E53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E41D68BE2018EC4B00A42E53 /* UIView+Frame.m in Sources */,
+				E41D68942018EC3400A42E53 /* ViewController.m in Sources */,
+				E41D68BB2018EC4B00A42E53 /* CLClippingPanel.m in Sources */,
+				E41D68C12018EC5800A42E53 /* SecondViewController.m in Sources */,
+				E41D68BD2018EC4B00A42E53 /* UIImage+Utility.m in Sources */,
+				E41D689F2018EC3400A42E53 /* main.m in Sources */,
+				E41D68912018EC3400A42E53 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E41D68A02018EC3500A42E53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E41D68A92018EC3500A42E53 /* ClipImageViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E41D68A62018EC3500A42E53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E41D688B2018EC3400A42E53 /* ClipImageView */;
+			targetProxy = E41D68A52018EC3500A42E53 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E41D68952018EC3400A42E53 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E41D68962018EC3400A42E53 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E41D689A2018EC3400A42E53 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E41D689B2018EC3400A42E53 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E41D68AB2018EC3500A42E53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E41D68AC2018EC3500A42E53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E41D68AE2018EC3500A42E53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ClipImageView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = limeng.ClipImageView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E41D68AF2018EC3500A42E53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ClipImageView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = limeng.ClipImageView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E41D68B12018EC3500A42E53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ClipImageViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = limeng.ClipImageViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ClipImageView;
+			};
+			name = Debug;
+		};
+		E41D68B22018EC3500A42E53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ClipImageViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = limeng.ClipImageViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ClipImageView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E41D68872018EC3400A42E53 /* Build configuration list for PBXProject "ClipImageView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E41D68AB2018EC3500A42E53 /* Debug */,
+				E41D68AC2018EC3500A42E53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E41D68AD2018EC3500A42E53 /* Build configuration list for PBXNativeTarget "ClipImageView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E41D68AE2018EC3500A42E53 /* Debug */,
+				E41D68AF2018EC3500A42E53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E41D68B02018EC3500A42E53 /* Build configuration list for PBXNativeTarget "ClipImageViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E41D68B12018EC3500A42E53 /* Debug */,
+				E41D68B22018EC3500A42E53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E41D68842018EC3400A42E53 /* Project object */;
+}
